@@ -6,7 +6,8 @@ describe Order do
 
 
 	let(:francisco)  {Customer.new("Francisco")}
-	let(:francisco_order) {Order.new(francisco)}
+	let(:francisco_order) {Order.new(francisco, order)}
+	let(:order) {double :order}
 	
 	it 'receives order from customer' do
 		francisco.order dishes[0], dishes[1]

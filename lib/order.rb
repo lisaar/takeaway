@@ -1,9 +1,9 @@
 class Order
 	attr_reader :customer, :order
 
-	def initialize(customer)
+	def initialize(customer, order)
 		@customer = customer
-		@order = []
+		@order = order
 	end
 
 	def place
