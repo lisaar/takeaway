@@ -6,14 +6,14 @@ Texting functionality is impemeneted via Twilio API.
 
 ###Dishes
 |Responsiblility| Class|
-|-------------------------|
+|-------------|------------|
 |can be viewed by| customer|
 |can be selected by| customer|
 |has a price|
 
 ###Order
 |Responsibility|Class|
-|----------------------|
+|-----------|-----------|
 |take quantitiy of|dishes|
 |stores selected| dishes|
 |Receives selection from| customer|
@@ -22,14 +22,14 @@ Texting functionality is impemeneted via Twilio API.
 
 ###Customer
 |Responsibility|Class|
-|---------------------|
+|------------|---------|
 |selects quantity| dishes|
 |inputs final price||
 |place| order|
 
 ###Engine
 |Responisiblity|Class|
-|---------------------|
+|-----------|----------|
 |Prompts| user|
 |loads| dishes|
 |sends text||
