@@ -12,8 +12,7 @@ describe Customer do
 	end
 
 	it 'selects a dish to order' do
-		francisco.order dishes[0], dishes[1]
-		expect(francisco.order).to eq [[{:name=>"Tortilla", :price=>4.0}, {:name=>"Paella", :price=>4.5}], [] ]
+		expect(francisco.order dishes[0], dishes[1]).to eq [[{:name=>"Tortilla", :price=>4.0}, {:name=>"Paella", :price=>4.5}]]
 	end
 
 
