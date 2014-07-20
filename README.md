@@ -4,12 +4,21 @@ A Takeaway program. Has a list of disehs with prices. Orders are palced by givin
 
 Texting functionality is impemeneted via Twilio API.
 
-###Dishes
+###Dish
+|Responsiblility| Class|
+|-------------|------------|
+|stored in the| menu|
+|havea name| ||
+|have a price||
+
+###Menu
 |Responsiblility| Class|
 |-------------|------------|
 |can be viewed by| customer|
-|can be selected by| customer|
-|has a price|
+|has a list of | dishes|
+
+
+
 
 ###Order
 |Responsibility|Class|
